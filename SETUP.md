@@ -26,7 +26,7 @@ C:\WINDOWS\system32>java -jar […]\edsim51di_version_2.1.36\edsim51di\edsim51di
 >* Create your test file. You can use the test code included here. You will need to connect an LED to pin P1.7 and (through a 330 Ohm resistor) connect to the 3.3V pin. 
 >HINTS (for now but hope to be one step builds in the future): 
 >* You may need to create a one-time project to pull in the dependencies before the ch552 board will show up in the dropdown.
->* In terminal, find the link to your makebin.exe C:\Users\...\.platformio\packages\toolchain-sdcc\bin
+>* In terminal, find the link to your makebin.exe C:\Users\...\.platformio\packages\toolchain-sdcc\bin\makebin.exe -p .\Setup_Test_Blink_LED\.pio\ch55xduino\build\firmware.hex fireware.bin
 >* Create the bin file in the terminal.  C:\...\Setup_Test_Blink_LED\fireware.bin (You will be linking this 'Download File' in the WCHISP tool from the manufacturer as 'Object File 1').
 
 # Uploading
